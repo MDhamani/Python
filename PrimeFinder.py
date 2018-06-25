@@ -5,7 +5,7 @@
 x = int(input("enter max no."))
 showprime = input("show composite no.????")
 
-p = 1
+p = 1 # 1 is composite so start from 2
 prime = 0
 composite = 1
 
