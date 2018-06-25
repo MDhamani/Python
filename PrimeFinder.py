@@ -25,5 +25,5 @@ while p <= x:
             print(p, "composite")
     p += 1
     
-print("prime no.s B/W 0 -", x ,"are" , prime)
-print("composite no.s B/W 0 -", x, "are", composite)
+print("prime no.s B/W 0 -", x ,":-" , prime)
+print("composite no.s B/W 0 -", x, ":-", composite)
