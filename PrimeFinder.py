@@ -3,9 +3,9 @@
 #####################################
 
 x = int(input("enter max no."))
-showprime = input("show composite no.????")
+showcomposite = input("show composite no.????")
 
-p = 1 # 1 is composite so start from 2
+p = 1 #starting from 2
 prime = 0
 composite = 1
 
@@ -21,7 +21,7 @@ while p <= x:
         prime += 1
     elif flag >= 1:
         composite += 1
-        if showprime == "Y" or showprime == "y":
+        if showcomposite == "Y" or showcomposite == "y":
             print(p, "composite")
     p += 1
     
